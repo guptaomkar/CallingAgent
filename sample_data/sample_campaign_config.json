@@ -1,0 +1,21 @@
+{
+  "campaign_id": "CAMP_001",
+  "agent_name": "Priya",
+  "company_name": "FinServ Solutions",
+  "service_name": "SmartInvest Pro",
+  "service_description": "SmartInvest Pro is an AI-powered investment advisory platform that provides personalized portfolio recommendations, real-time market insights, and automated rebalancing. Features include: tax-loss harvesting, diversified ETF portfolios, dedicated financial advisor access, and a minimum investment of just ₹10,000. Currently offering 3 months free for new signups.",
+  "campaign_objective": "Your goal is to promote our new SmartInvest Pro package, gauge the client's current investment situation, assess their interest level, and schedule a free 15-minute portfolio review call with our specialist team.",
+  "language": "English",
+  "max_call_duration_seconds": 300,
+  "retry_attempts": 3,
+  "retry_interval_hours": 24,
+  "questions": [
+    { "id": "q1", "text": "How would you rate your experience with our existing services on a scale of 1 to 5?" },
+    { "id": "q2", "text": "Are you currently investing with any other provider?" },
+    { "id": "q3", "text": "Would you be interested in a free 15-minute portfolio review?" },
+    { "id": "q4", "text": "What matters most to you when it comes to investing — returns, safety, or flexibility?" },
+    { "id": "q5", "text": "What would be the best day and time for us to follow up with you?" }
+  ],
+  "voice_id": "elevenlabs_voice_id_here",
+  "tone": "professional_warm"
+}
